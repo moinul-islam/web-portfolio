@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section,
+header {
+    height: 500px;
+    padding: 30px 0;
+    width: 0 auto;
+    clear: both;
+}
+
+.top-section {
+    background-image: url(../img/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.section-dream {
+    background-image: url(../img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.section-experiences {
+    background-image: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 span {
+    color: tomato;
+    font-size: 2rem;
+}
+
+span {
+   color: tomato; 
+}
+
+p {
+    color: dimgray;
+}
+
+.half-width a {
+    text-decoration: none;
+    background-image: linear-gradient(90deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.experiences-box {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+
+#pro-level {
+    border-left: 7px solid;
+    -o-border-image: linear-gradient(180deg, lightSalmon, tomato);
+       border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web {
+    border-left: 7px solid;
+    -o-border-image: linear-gradient(180deg, blue, cyan);
+       border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+
+footer p,
+.exp {
+    text-align: center;
+    margin-bottom: 50px;
+}
